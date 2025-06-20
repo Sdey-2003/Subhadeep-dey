@@ -146,8 +146,8 @@ section.active {
 
 /* ===== Home Section: Updated Position ===== */
 .home {
-  justify-content: flex-start;   /* Push content to the left */
-  padding-left: 100px;          /* Adjust distance from nav bar */
+  justify-content: flex-start;
+  padding-left: 100px;
 }
 
 .home-content {
@@ -245,18 +245,29 @@ p {
 
   .glass-box {
     width: 90%;
-    padding: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
   }
 
   .home {
     justify-content: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
   }
 
   .home-content {
-    max-width: 100%;
+    width: 100%;
+    max-width: 90%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
   }
 
   .home-photo-bg {
@@ -285,9 +296,9 @@ p {
   }
 }
 
-
+/* ===== Footer ===== */
 footer {
-  margin-left: 200px; /* prevents overlapping the sidebar */
+  margin-left: 200px;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(20px);
   padding: 20px;
